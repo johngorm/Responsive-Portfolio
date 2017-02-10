@@ -248,6 +248,7 @@ li div {
 
 	.main_content{
 		width: 90%;
+		height:auto;
     	box-sizing: border-box;
     	margin-left: 5%;
     	margin-right: 5%;
@@ -255,11 +256,13 @@ li div {
 
 	}
 
-	.main_content img{
+	.profile_pic img{
 		width:100%;
 		height:auto;
 		clear:left;
 	}
+
+
 	p{
 		float:left;
 		width: 100%;
@@ -282,12 +285,45 @@ li div {
 		
 	}
 
-	footer {
-		clear:left;
+	li{
+		box-sizing: border-box;
+		margin-bottom: 20px
+		
+		
 	}
 
-	
+	.portfolio_item{
+		width: 222%;
+		top: 225px;
 
+
+	}
+	/*This prevents a line break from being put onto of the portfolio item paragraph tags*/
+	p.text-uppercase:before {
+		display: none;
+	}
+
+	.portfolio_img{
+	    width: 222%;
+   		 height: 300px;
+	}
+
+	ul li img{
+		box-sizing: content-box;
+		display: inline-block;
+	}
+
+	input{
+		width:100%;
+	}
+
+	textarea{
+		width:100%;
+	}
+
+
+
+	
 	
 }
 
