@@ -40,7 +40,7 @@ nav {
     /* float: right; */
     margin-top: 22.44px;
     padding-top: 20px;
-    left: 455px;
+    left: 444px;
     color: #cccccc;
     position: relative;
 }
@@ -203,6 +203,58 @@ li div {
 	background-size: 100%;
 }
 
+
+
+
+@media screen and (max-width: 768px) {
+	
+	nav{
+		position: static;
+		float:right;
+		padding-top: 10px
+	}
+	.container{
+		width:100%;
+		margin-left:0px;
+		margin-right:0px;
+	}
+	.main_content{
+		box-sizing: border-box;
+		margin-left:5%;
+		margin-right:5%;
+		margin-bottom: 30px;
+		width: 90%;
+	}
+	.social_media{
+		position: static;
+    	box-sizing: border-box;
+	    width: 90%;
+	    height: auto;
+	    margin-left: 5%;
+	    margin-bottom: 30px;
+	    margin-right: 5%;
+	}
+
+
+	input{
+		width:100%;
+	}
+
+	textarea{
+		width:100%;
+	}
+
+
+	
+
+}
+
+
+@media screen and (max-width: 980px) {
+
+
+}
+
 @media screen and (max-width: 640px) {
 	header {
 		position: static;
@@ -275,7 +327,7 @@ li div {
 	}
 
 	.social_media{
-		position: static;
+	position: static;
     box-sizing: border-box;
     width: 90%;
     height: auto;
@@ -320,19 +372,6 @@ li div {
 	textarea{
 		width:100%;
 	}
-
-
-
 	
 	
-}
-
-@media screen and (max-width: 768px) {
-
-
-}
-
-@media screen and (max-width: 980px) {
-
-
 }
